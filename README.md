@@ -1,4 +1,4 @@
-# Red Bean Proxy Checker (RbProxCheck)
+# Red Bean Proxy Checker (RbProxyCheck)
 ## A Simple Multithreaded Proxy Checker
 
 This Python script checks the validity of a list of proxy servers using multithreading. It utilizes the `requests` library to make HTTP requests through each proxy server and checks if the request to "http://ipinfo.io/json" is successful (status code 200). If it's successful, the proxy server is considered valid, and its details are printed.
